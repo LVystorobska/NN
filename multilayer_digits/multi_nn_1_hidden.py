@@ -124,7 +124,7 @@ class MultilayerMNIST():
 
 
 epochs_n = 10
-print(f'TEST {1}: sample size - {60000}, epochs - {epochs_n}')
+print(f'TEST {1}: sample size - {50000}, epochs - {epochs_n}')
 network = MultilayerMNIST(sizes=[784, 30, 10], epochs=epochs_n)
 w1, b1, w2, b2 = network.train(X=train_samples, Y=labels_train)
 
